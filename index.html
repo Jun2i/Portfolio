@@ -1,0 +1,1864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juan Xyryll G. Apocero | Web &amp; Systems Developer</title>
+  <meta name="description"
+    content="Juan Xyryll G. Apocero - Web Developer, Systems Developer, and IT Professional specializing in web applications, business information systems, and digital solutions. Based in the Philippines." />
+  <meta name="keywords"
+    content="web developer, systems developer, IT professional, PHP, Python, Django, MySQL, Philippines" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&family=DM+Serif+Display:ital@0;1&display=swap"
+    rel="stylesheet" />
+  <meta property="og:image" content="jxa.jpg" />
+  <link rel="icon" type="image/jpeg" href="jxa.jpg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a href="#home" class="brand" aria-label="Juan Xyryll - Home">
+        <span class="brand-mark" aria-hidden="true">JX</span>
+        <span class="brand-text">Juan Xyryll</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" id="navToggleBtn">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+      <div class="nav-panel" id="navPanel">
+        <ul class="nav-menu" role="list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#creative" class="nav-link">Creative</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="#resumeModal" class="btn btn-ghost resume-trigger" id="navResumeBtn">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" aria-hidden="true">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+              <polyline points="10 9 9 9 8 9"></polyline>
+            </svg>
+            View Resume
+          </a>
+          <a href="#contact" class="btn btn-primary" id="navCTABtn">Let's Work Together</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero" aria-label="Hero">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="hero-grid-lines"></div>
+      </div>
+      <div class="container hero-inner">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="edot"></span>Professional Digital Solutions</div>
+          <h1>Building Digital <em>Solutions</em> That Work.</h1>
+          <p class="hero-name">Juan Xyryll G. Apocero</p>
+          <p class="hero-role">
+            <span>Web Developer</span>
+            <span class="sep">&#183;</span>
+            <span>Systems Developer</span>
+            <span class="sep">&#183;</span>
+            <span>IT Professional</span>
+          </p>
+          <p class="hero-desc">I design and develop reliable web applications, business systems, and digital experiences
+            that help organizations improve their processes and achieve their goals.</p>
+          <div class="hero-btns">
+            <a href="#projects" class="btn btn-primary btn-lg" id="heroViewBtn">
+              View My Work
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-outline btn-lg" id="heroContactBtn">Let's Work Together</a>
+          </div>
+          <div class="avail-pill">
+            <span class="avail-dot"></span>
+            Available for Projects
+          </div>
+        </div>
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="code-card">
+            <div class="cc-titlebar">
+              <span class="cc-dot red"></span><span class="cc-dot yellow"></span><span class="cc-dot green"></span>
+              <span class="cc-filename">portfolio.js</span>
+            </div>
+            <div class="cc-body">
+              <div class="cc-line"><span class="ck">const</span> <span class="cf">developer</span> <span
+                  class="co">=</span> {</div>
+              <div class="cc-line pl2"><span class="cp">name</span><span class="co">:</span> <span class="cs">"Juan
+                  Xyryll"</span>,</div>
+              <div class="cc-line pl2"><span class="cp">role</span><span class="co">:</span> <span class="cs">"Web &amp;
+                  Systems Dev"</span>,</div>
+              <div class="cc-line pl2"><span class="cp">stack</span><span class="co">:</span> [</div>
+              <div class="cc-line pl4"><span class="cs">"PHP"</span>, <span class="cs">"Python"</span>, <span
+                  class="cs">"Django"</span>,</div>
+              <div class="cc-line pl4"><span class="cs">"Java"</span>, <span class="cs">"MySQL"</span>, <span
+                  class="cs">"JavaScript"</span></div>
+              <div class="cc-line pl2">],</div>
+              <div class="cc-line pl2"><span class="cp">location</span><span class="co">:</span> <span
+                  class="cs">"Philippines"</span>,</div>
+              <div class="cc-line pl2"><span class="cp">available</span><span class="co">:</span> <span
+                  class="ck">true</span></div>
+              <div class="cc-line">};</div>
+              <div class="cc-line">&nbsp;</div>
+              <div class="cc-line"><span class="cf">buildSolution</span>(<span class="cp">developer</span>);</div>
+            </div>
+            <div class="cc-footer">
+              <span class="cc-badge">PHP</span>
+              <span class="cc-badge">Python</span>
+              <span class="cc-badge">Django</span>
+              <span class="cc-badge">Java</span>
+              <span class="cc-badge">MySQL</span>
+              <span class="cc-badge">JS</span>
+            </div>
+          </div>
+          <div class="float-badge fb-a">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" aria-hidden="true">
+              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+            </svg>
+            Web Apps
+          </div>
+          <div class="float-badge fb-b">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" aria-hidden="true">
+              <ellipse cx="12" cy="5" rx="9" ry="3" />
+              <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+              <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+            </svg>
+            Database
+          </div>
+          <div class="float-badge fb-c">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" aria-hidden="true">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <line x1="8" y1="21" x2="16" y2="21" />
+              <line x1="12" y1="17" x2="12" y2="21" />
+            </svg>
+            Systems
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTRO STRIP -->
+    <section class="intro-section" aria-label="Introduction">
+      <div class="container">
+        <div class="intro-box reveal">
+          <p class="intro-text">I combine technical development, system analysis, database management, and user-focused
+            design to create practical digital solutions.</p>
+          <div class="stats-row">
+            <div class="stat">
+              <span class="stat-n">04+</span>
+              <span class="stat-l">Featured Projects</span>
+            </div>
+            <div class="stat-div" aria-hidden="true"></div>
+            <div class="stat">
+              <span class="stat-n">05+</span>
+              <span class="stat-l">Certifications &amp; Trainings</span>
+            </div>
+            <div class="stat-div" aria-hidden="true"></div>
+            <div class="stat">
+              <span class="stat-n">10+</span>
+              <span class="stat-l">Technologies &amp; Tools</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section" aria-labelledby="about-h">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="eyebrow"><span class="edot"></span>Professional Profile</span>
+          <h2 id="about-h">About Me</h2>
+        </div>
+        <div class="about-layout">
+          <div class="about-text reveal">
+            <p class="lead">I develop web applications and information systems designed to simplify business operations,
+              improve workflows, and deliver dependable digital experiences.</p>
+            <p>My work focuses on practical technology implementation, strong system architecture, and user-centered
+              design. I translate complex requirements into reliable, scalable solutions aligned with real operational
+              needs.</p>
+            <p>Whether it is a web application, a business information system, or a database-driven platform, I approach
+              every project with discipline: understand deeply, plan carefully, build cleanly, and deliver dependably.
+            </p>
+            <ul class="feat-list">
+              <li><span class="fl-check" aria-hidden="true">&#10003;</span> Web application development</li>
+              <li><span class="fl-check" aria-hidden="true">&#10003;</span> Business and information systems</li>
+              <li><span class="fl-check" aria-hidden="true">&#10003;</span> Database development &amp; management</li>
+              <li><span class="fl-check" aria-hidden="true">&#10003;</span> System analysis &amp; design</li>
+              <li><span class="fl-check" aria-hidden="true">&#10003;</span> UI/UX implementation</li>
+              <li><span class="fl-check" aria-hidden="true">&#10003;</span> Process improvement</li>
+              <li><span class="fl-check" aria-hidden="true">&#10003;</span> Problem solving &amp; debugging</li>
+              <li><span class="fl-check" aria-hidden="true">&#10003;</span> Technology-driven solutions</li>
+            </ul>
+          </div>
+          <aside class="profile-card reveal" aria-label="Profile">
+            <div class="pc-top-bar"></div>
+            <div class="pc-inner">
+              <div class="pc-av-ring">
+                <div class="pc-av">
+                  <img src="profile-formal.jpg" alt="Juan Xyryll G. Apocero" class="pc-av-img" />
+                </div>
+              </div>
+              <h3 class="pc-name">Juan Xyryll G. Apocero</h3>
+              <p class="pc-role">Web &amp; Systems Developer</p>
+              <div class="pc-avail"><span class="avail-dot small"></span>Open to Professional Opportunities</div>
+              <dl class="pc-dl">
+                <div>
+                  <dt>Name</dt>
+                  <dd>Juan Xyryll G. Apocero</dd>
+                </div>
+                <div>
+                  <dt>Role</dt>
+                  <dd>Web &amp; Systems Developer</dd>
+                </div>
+                <div>
+                  <dt>Specialization</dt>
+                  <dd>Web Apps &amp; Information Systems</dd>
+                </div>
+                <div>
+                  <dt>Location</dt>
+                  <dd>Philippines</dd>
+                </div>
+                <div>
+                  <dt>Availability</dt>
+                  <dd class="avail-green">Open to Opportunities</dd>
+                </div>
+              </dl>
+              <a href="#resumeModal" class="btn btn-primary btn-full resume-trigger" id="aboutResumeBtn">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" aria-hidden="true">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+                View Resume
+              </a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section section-alt" aria-labelledby="svc-h">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="eyebrow"><span class="edot"></span>Core Services</span>
+          <h2 id="svc-h">What I Do</h2>
+          <p class="sec-sub">End-to-end digital solutions from concept and design to development and deployment.</p>
+        </div>
+        <div class="svc-grid">
+          <article class="svc-card reveal" id="svc-1">
+            <div class="svc-n">01</div>
+            <div class="svc-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <path d="M9 9l-3 3 3 3" />
+                <path d="M15 9l3 3-3 3" />
+              </svg>
+            </div>
+            <h3>Web Development</h3>
+            <p>Design and develop responsive, modern, and functional websites and web applications tailored to business
+              requirements.</p>
+            <div class="svc-arrow" aria-hidden="true">&#8594;</div>
+          </article>
+          <article class="svc-card reveal" id="svc-2">
+            <div class="svc-n">02</div>
+            <div class="svc-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" />
+                <line x1="8" y1="21" x2="16" y2="21" />
+                <line x1="12" y1="17" x2="12" y2="21" />
+              </svg>
+            </div>
+            <h3>Systems Development</h3>
+            <p>Develop customized business and information systems that streamline organizational processes and improve
+              efficiency.</p>
+            <div class="svc-arrow" aria-hidden="true">&#8594;</div>
+          </article>
+          <article class="svc-card reveal" id="svc-3">
+            <div class="svc-n">03</div>
+            <div class="svc-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+                stroke-linecap="round" stroke-linejoin="round">
+                <ellipse cx="12" cy="5" rx="9" ry="3" />
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+              </svg>
+            </div>
+            <h3>Database Development</h3>
+            <p>Design, organize, and manage reliable databases that support robust business applications and ensure data
+              integrity.</p>
+            <div class="svc-arrow" aria-hidden="true">&#8594;</div>
+          </article>
+          <article class="svc-card reveal" id="svc-4">
+            <div class="svc-n">04</div>
+            <div class="svc-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="2.18" />
+                <line x1="7" y1="2" x2="7" y2="22" />
+                <line x1="17" y1="2" x2="17" y2="22" />
+                <line x1="2" y1="12" x2="22" y2="12" />
+              </svg>
+            </div>
+            <h3>UI/UX Implementation</h3>
+            <p>Create clean, intuitive, and responsive interfaces focused on usability, accessibility, and professional
+              user experience.</p>
+            <div class="svc-arrow" aria-hidden="true">&#8594;</div>
+          </article>
+          <article class="svc-card reveal" id="svc-5">
+            <div class="svc-n">05</div>
+            <div class="svc-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="20" x2="18" y2="10" />
+                <line x1="12" y1="20" x2="12" y2="4" />
+                <line x1="6" y1="20" x2="6" y2="14" />
+              </svg>
+            </div>
+            <h3>System Analysis</h3>
+            <p>Analyze business requirements and translate them into practical, well-structured technical solutions and
+              system designs.</p>
+            <div class="svc-arrow" aria-hidden="true">&#8594;</div>
+          </article>
+          <article class="svc-card reveal" id="svc-6">
+            <div class="svc-n">06</div>
+            <div class="svc-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" />
+              </svg>
+            </div>
+            <h3>Technical Support</h3>
+            <p>Provide troubleshooting, maintenance, optimization, and technical assistance to keep digital systems
+              running reliably.</p>
+            <div class="svc-arrow" aria-hidden="true">&#8594;</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section" aria-labelledby="skills-h">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="eyebrow"><span class="edot"></span>Technology Stack</span>
+          <h2 id="skills-h">Skills &amp; Technologies</h2>
+          <p class="sec-sub">A curated set of technologies and methodologies I use to build complete digital solutions.
+          </p>
+        </div>
+        <div class="skills-layout reveal">
+          <div class="sk-group">
+            <h3 class="sk-cat">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <path d="M9 9l-3 3 3 3" />
+                <path d="M15 9l3 3-3 3" />
+              </svg>
+              Frontend
+            </h3>
+            <div class="tag-row">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Responsive Design</span>
+            </div>
+          </div>
+          <div class="sk-group">
+            <h3 class="sk-cat">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" aria-hidden="true">
+                <rect x="2" y="2" width="6" height="6" rx="1" />
+                <rect x="16" y="2" width="6" height="6" rx="1" />
+                <rect x="9" y="16" width="6" height="6" rx="1" />
+                <line x1="5" y1="8" x2="5" y2="12" />
+                <line x1="19" y1="8" x2="19" y2="12" />
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <line x1="12" y1="12" x2="12" y2="16" />
+              </svg>
+              Backend
+            </h3>
+            <div class="tag-row">
+              <span class="tag tag-a">Python</span>
+              <span class="tag tag-a">Django</span>
+              <span class="tag tag-a">PHP</span>
+              <span class="tag tag-a">Java</span>
+            </div>
+          </div>
+          <div class="sk-group">
+            <h3 class="sk-cat">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" aria-hidden="true">
+                <ellipse cx="12" cy="5" rx="9" ry="3" />
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+              </svg>
+              Database
+            </h3>
+            <div class="tag-row">
+              <span class="tag">MySQL</span>
+              <span class="tag">SQL</span>
+              <span class="tag">Database Design</span>
+            </div>
+          </div>
+          <div class="sk-group">
+            <h3 class="sk-cat">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" aria-hidden="true">
+                <path
+                  d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" />
+              </svg>
+              Dev Tools
+            </h3>
+            <div class="tag-row">
+              <span class="tag">VS Code</span>
+              <span class="tag">Git</span>
+              <span class="tag">GitHub</span>
+              <span class="tag">XAMPP</span>
+              <span class="tag">phpMyAdmin</span>
+              <span class="tag">Figma</span>
+            </div>
+          </div>
+          <div class="sk-group sk-wide">
+            <h3 class="sk-cat">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10" />
+                <line x1="12" y1="8" x2="12" y2="12" />
+                <line x1="12" y1="16" x2="12.01" y2="16" />
+              </svg>
+              Systems &amp; Methodologies
+            </h3>
+            <div class="tag-row">
+              <span class="tag tag-b">System Analysis</span>
+              <span class="tag tag-b">CRUD Development</span>
+              <span class="tag tag-b">Authentication Systems</span>
+              <span class="tag tag-b">Database Management</span>
+              <span class="tag tag-b">Information Systems Development</span>
+            </div>
+          </div>
+          <div class="sk-group sk-wide">
+            <h3 class="sk-cat">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" aria-hidden="true">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+              </svg>
+              Technical Skills
+            </h3>
+            <div class="tag-row">
+              <span class="tag tag-a">Fluency in English</span>
+              <span class="tag tag-a">Productivity Software Suite Mastery</span>
+              <span class="tag tag-a">Adaptability &amp; Flexibility</span>
+              <span class="tag tag-a">Problem Solving &amp; Debugging</span>
+              <span class="tag tag-a">Prompt Engineering &amp; AI Tools</span>
+              <span class="tag tag-a">Hardware Troubleshooting &amp; ICT Support</span>
+              <span class="tag tag-a">Web &amp; Systems Development</span>
+            </div>
+          </div>
+          <div class="sk-group sk-wide">
+            <h3 class="sk-cat">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" aria-hidden="true">
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 00-3-3.87" />
+                <path d="M16 3.13a4 4 0 010 7.75" />
+              </svg>
+              Interpersonal Skills
+            </h3>
+            <div class="tag-row">
+              <span class="tag tag-b">Active Listening &amp; Questioning</span>
+              <span class="tag tag-b">Coordination &amp; Project Management</span>
+              <span class="tag tag-b">AI Product Management</span>
+              <span class="tag tag-b">Effective Team Collaboration</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section-alt" aria-labelledby="proj-h">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="eyebrow"><span class="edot"></span>Featured Portfolio</span>
+          <h2 id="proj-h">Selected Projects</h2>
+          <p class="sec-sub">A selection of projects that showcase my capabilities in web and systems development.</p>
+        </div>
+        <div class="proj-list">
+
+          <!-- PROJECT 01 -->
+          <article class="proj-card reveal" id="proj-1">
+            <div class="proj-media pm-1">
+              <div class="proj-label">Business Management System</div>
+              <div class="proj-mock">
+                <div class="pm-sidebar">
+                  <div class="pm-logo"></div>
+                  <div class="pm-nav-i active"></div>
+                  <div class="pm-nav-i"></div>
+                  <div class="pm-nav-i"></div>
+                  <div class="pm-nav-i"></div>
+                </div>
+                <div class="pm-main">
+                  <div class="pm-topbar">
+                    <div class="pm-search"></div>
+                  </div>
+                  <div class="pm-stats">
+                    <div class="pm-s-box">
+                      <div class="pm-s-n teal"></div>
+                      <div class="pm-s-l"></div>
+                    </div>
+                    <div class="pm-s-box">
+                      <div class="pm-s-n blue"></div>
+                      <div class="pm-s-l"></div>
+                    </div>
+                    <div class="pm-s-box">
+                      <div class="pm-s-n green"></div>
+                      <div class="pm-s-l"></div>
+                    </div>
+                  </div>
+                  <div class="pm-table">
+                    <div class="pm-row pm-head">
+                      <div class="pm-c w"></div>
+                      <div class="pm-c"></div>
+                      <div class="pm-c"></div>
+                      <div class="pm-c">
+                        <div class="pm-badge g"></div>
+                      </div>
+                    </div>
+                    <div class="pm-row">
+                      <div class="pm-c w"></div>
+                      <div class="pm-c"></div>
+                      <div class="pm-c"></div>
+                      <div class="pm-c">
+                        <div class="pm-badge y"></div>
+                      </div>
+                    </div>
+                    <div class="pm-row">
+                      <div class="pm-c w"></div>
+                      <div class="pm-c"></div>
+                      <div class="pm-c"></div>
+                      <div class="pm-c">
+                        <div class="pm-badge g"></div>
+                      </div>
+                    </div>
+                    <div class="pm-row">
+                      <div class="pm-c w"></div>
+                      <div class="pm-c"></div>
+                      <div class="pm-c"></div>
+                      <div class="pm-c">
+                        <div class="pm-badge r"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="proj-info">
+              <span class="proj-num">Project 01</span>
+              <h3>Boarding House Management System</h3>
+              <p class="proj-cat">Business Management System</p>
+              <p class="proj-desc">A web-based management system designed to manage tenants, rooms, rental contracts,
+                payments, utility bills, and administrative records all in one organized platform.</p>
+              <div class="proj-tech">
+                <span>PHP</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <ul class="proj-feat">
+                <li>Tenant and room management</li>
+                <li>Payment and billing tracking</li>
+                <li>Contract records and reporting</li>
+                <li>Utility bill computation</li>
+              </ul>
+              <div class="proj-btns">
+                <a href="#" class="btn btn-primary" id="proj1-view">View Project</a>
+                <a href="https://github.com/Jun2i" target="_blank" rel="noopener noreferrer" class="btn btn-outline"
+                  id="proj1-gh">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" aria-hidden="true">
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 02 -->
+          <article class="proj-card proj-rev reveal" id="proj-2">
+            <div class="proj-media pm-2">
+              <div class="proj-label">Document Management System</div>
+              <div class="proj-mock">
+                <div class="pm-sidebar">
+                  <div class="pm-logo" style="background:rgba(123,150,215,0.35)"></div>
+                  <div class="pm-nav-i active" style="background:rgba(123,150,215,0.45)"></div>
+                  <div class="pm-nav-i"></div>
+                  <div class="pm-nav-i"></div>
+                </div>
+                <div class="pm-main">
+                  <div class="pm-topbar">
+                    <div class="pm-search"></div>
+                  </div>
+                  <div class="pm-pipeline">
+                    <div class="pm-stage s1">Submitted</div>
+                    <div class="pm-arr">&#8594;</div>
+                    <div class="pm-stage s2">Processing</div>
+                    <div class="pm-arr">&#8594;</div>
+                    <div class="pm-stage s3">Ready</div>
+                    <div class="pm-arr">&#8594;</div>
+                    <div class="pm-stage s4">Done</div>
+                  </div>
+                  <div class="pm-cards">
+                    <div class="pm-ki"></div>
+                    <div class="pm-ki feat"></div>
+                    <div class="pm-ki"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="proj-info">
+              <span class="proj-num">Project 02</span>
+              <h3>EduForms &#8211; School Forms Request System</h3>
+              <p class="proj-cat">Document Management System</p>
+              <p class="proj-desc">A web-based platform designed to streamline document requests, request tracking,
+                status management, notifications, and administrative processing for educational institutions.</p>
+              <div class="proj-tech">
+                <span>Python</span><span>Django</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <ul class="proj-feat">
+                <li>Request lifecycle tracking</li>
+                <li>Status notifications and workflows</li>
+                <li>Administrative processing tools</li>
+                <li>Document issuance management</li>
+              </ul>
+              <div class="proj-btns">
+                <a href="#" class="btn btn-primary" id="proj2-view">View Project</a>
+                <a href="https://github.com/Jun2i" target="_blank" rel="noopener noreferrer" class="btn btn-outline"
+                  id="proj2-gh">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" aria-hidden="true">
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 03 -->
+          <article class="proj-card reveal" id="proj-3">
+            <div class="proj-media pm-3">
+              <div class="proj-label">Web Application</div>
+              <div class="proj-mock">
+                <div class="pm-sidebar">
+                  <div class="pm-logo" style="background:rgba(251,146,60,0.4)"></div>
+                  <div class="pm-nav-i active" style="background:rgba(251,146,60,0.55)"></div>
+                  <div class="pm-nav-i"></div>
+                  <div class="pm-nav-i"></div>
+                </div>
+                <div class="pm-main">
+                  <div class="pm-topbar">
+                    <div class="pm-search"></div>
+                    <div
+                      style="background:rgba(251,146,60,0.25); border:1px solid rgba(251,146,60,0.4); color:#fb923c; font-size:0.6rem; padding:4px 9px; border-radius:999px; font-weight:700;">
+                      + New Post</div>
+                  </div>
+                  <div class="pm-blog-hero">
+                    <div class="pm-blog-badge">Featured Post</div>
+                    <div class="pm-blog-title"></div>
+                    <div class="pm-blog-lines">
+                      <div class="pm-bl w90"></div>
+                      <div class="pm-bl w70"></div>
+                    </div>
+                  </div>
+                  <div class="pm-blog-grid">
+                    <div class="pm-blog-card">
+                      <div class="pm-bc-thumb"></div>
+                      <div class="pm-bc-text">
+                        <div class="pm-bc-title"></div>
+                        <div class="pm-bc-meta"></div>
+                      </div>
+                    </div>
+                    <div class="pm-blog-card">
+                      <div class="pm-bc-thumb"></div>
+                      <div class="pm-bc-text">
+                        <div class="pm-bc-title"></div>
+                        <div class="pm-bc-meta"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="proj-info">
+              <span class="proj-num">Project 03</span>
+              <h3>Blogspot</h3>
+              <p class="proj-cat">Content Management &amp; Blogging Platform</p>
+              <p class="proj-desc">A dynamic web-based blogging and content management platform built with Python and
+                Django. Features complete CRUD management for articles, category filtering, multimedia content handling,
+                author workflows, and an engaging reading experience.</p>
+              <div class="proj-tech">
+                <span>Python</span><span>Django</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>MySQL</span>
+              </div>
+              <ul class="proj-feat">
+                <li>Django-powered article publishing and CMS</li>
+                <li>Dynamic category filtering and tag indexing</li>
+                <li>Responsive reader layout and article previews</li>
+                <li>Comment moderation and reader interaction</li>
+              </ul>
+              <div class="proj-btns">
+                <a href="#" class="btn btn-primary" id="proj3-view">View Project</a>
+                <a href="https://github.com/Jun2i" target="_blank" rel="noopener noreferrer" class="btn btn-outline"
+                  id="proj3-gh">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" aria-hidden="true">
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 04 -->
+          <article class="proj-card proj-rev reveal" id="proj-4">
+            <div class="proj-media pm-4">
+              <div class="proj-label">Point of Sale &amp; Inventory System</div>
+              <div class="proj-mock">
+                <div class="pm-sidebar">
+                  <div class="pm-logo" style="background:rgba(52,211,153,0.4)"></div>
+                  <div class="pm-nav-i active" style="background:rgba(52,211,153,0.55)"></div>
+                  <div class="pm-nav-i"></div>
+                  <div class="pm-nav-i"></div>
+                </div>
+                <div class="pm-main">
+                  <div class="pm-topbar">
+                    <div class="pm-search"></div>
+                    <div class="pm-badge g" style="font-size:0.6rem; padding:3px 8px; width:auto;">POS Active</div>
+                  </div>
+                  <div class="pm-pos-wrap">
+                    <div class="pm-pos-items">
+                      <div class="pm-pos-item">
+                        <div class="pm-pos-icon"></div>
+                        <div class="pm-pos-name"></div>
+                        <div class="pm-pos-price">&#8369;150.00</div>
+                      </div>
+                      <div class="pm-pos-item">
+                        <div class="pm-pos-icon"></div>
+                        <div class="pm-pos-name"></div>
+                        <div class="pm-pos-price">&#8369;320.00</div>
+                      </div>
+                      <div class="pm-pos-item">
+                        <div class="pm-pos-icon"></div>
+                        <div class="pm-pos-name"></div>
+                        <div class="pm-pos-price">&#8369;85.00</div>
+                      </div>
+                      <div class="pm-pos-item">
+                        <div class="pm-pos-icon"></div>
+                        <div class="pm-pos-name"></div>
+                        <div class="pm-pos-price">&#8369;490.00</div>
+                      </div>
+                    </div>
+                    <div class="pm-pos-cart">
+                      <div class="pm-cart-header">Current Order</div>
+                      <div class="pm-cart-row">
+                        <span class="pm-cr-item"></span>
+                        <span class="pm-cr-amt">&#8369;320</span>
+                      </div>
+                      <div class="pm-cart-row">
+                        <span class="pm-cr-item"></span>
+                        <span class="pm-cr-amt">&#8369;170</span>
+                      </div>
+                      <div class="pm-cart-divider"></div>
+                      <div class="pm-cart-total">
+                        <span>Total</span>
+                        <span class="pm-ct-val">&#8369;490.00</span>
+                      </div>
+                      <div class="pm-cart-pay">Pay &amp; Print</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="proj-info">
+              <span class="proj-num">Project 04</span>
+              <h3>Michael Jackstore POS System</h3>
+              <p class="proj-cat">Point of Sale &amp; Inventory Management</p>
+              <p class="proj-desc">A standalone point-of-sale (POS) and inventory management system built purely in
+                Java. Designed for retail store operations with fast item checkout, automated sales calculation, stock
+                monitoring, cashier management, and receipt generation.</p>
+              <div class="proj-tech"><span>Java</span><span>Desktop / Systems</span><span>POS Application</span></div>
+              <ul class="proj-feat">
+                <li>Fast transaction checkout &amp; order calculation</li>
+                <li>Real-time stock tracking and low-inventory alerts</li>
+                <li>Sales summary reports and revenue records</li>
+                <li>Cashier management and receipt issuance</li>
+              </ul>
+              <div class="proj-btns">
+                <a href="#" class="btn btn-primary" id="proj4-view">View Project</a>
+                <a href="https://github.com/Jun2i" target="_blank" rel="noopener noreferrer" class="btn btn-outline"
+                  id="proj4-gh">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" aria-hidden="true">
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ADD MORE PROJECTS HERE: Copy a proj-card article block above and update content.
+                 Alternate between proj-card and proj-card proj-rev for visual variety. -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS & TRAINING -->
+    <section id="certifications" class="section" aria-labelledby="cert-h">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="eyebrow"><span class="edot"></span>Credentials &amp; Continuous Learning</span>
+          <h2 id="cert-h">Certificates &amp; Training</h2>
+          <p class="sec-sub">Verified certifications, international academic lecture series, and technical seminar
+            credentials.</p>
+        </div>
+
+        <!-- Filter Pills -->
+        <div class="cert-filter-bar reveal" role="tablist" aria-label="Certificate categories">
+          <button class="cert-filter-btn active" data-filter="all" role="tab" aria-selected="true">All
+            Certificates</button>
+          <button class="cert-filter-btn" data-filter="ai" role="tab" aria-selected="false">AI &amp;
+            Programming</button>
+          <button class="cert-filter-btn" data-filter="ict" role="tab" aria-selected="false">International ICT</button>
+          <button class="cert-filter-btn" data-filter="security" role="tab" aria-selected="false">Cybersecurity</button>
+        </div>
+
+        <div class="cert-grid">
+
+          <!-- CERT 01: Armada Logics -->
+          <article class="cert-card reveal" data-category="ai" id="cert-armada">
+            <div class="cert-card-top">
+              <div class="cert-issuer-badge">
+                <span class="cert-org-icon armada" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                  </svg>
+                </span>
+                <div>
+                  <span class="cert-issuer">Armada Logics</span>
+                  <span class="cert-type-pill">Certificate of Participation</span>
+                </div>
+              </div>
+              <span class="cert-date-badge">Feb 2026</span>
+            </div>
+            <div class="cert-body">
+              <h3 class="cert-title">AI Tools &amp; Software Technologies for Programming and Research</h3>
+              <p class="cert-event">Armada Logics&#39; Day-2 School Caravan</p>
+              <p class="cert-desc">Actively participated in comprehensive training on leveraging modern artificial
+                intelligence tools, software engineering workflows, and advanced technologies for programming and
+                scientific research (3.5 hours).</p>
+              <div class="cert-meta-row">
+                <div class="cert-meta-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
+                  </svg>
+                  <span>3.5 Hours · Feb 5, 2026</span>
+                </div>
+                <div class="cert-meta-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" aria-hidden="true">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                    <circle cx="12" cy="7" r="4" />
+                  </svg>
+                  <span>Juan Xyryll G. Apocero</span>
+                </div>
+              </div>
+              <div class="cert-skills">
+                <span class="c-skill">AI Tools</span>
+                <span class="c-skill">Software Technologies</span>
+                <span class="c-skill">Programming</span>
+                <span class="c-skill">Research Methods</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- CERT 02: ConnectED Day 1 -->
+          <article class="cert-card reveal" data-category="ict" id="cert-connected-1">
+            <div class="cert-card-top">
+              <div class="cert-issuer-badge">
+                <span class="cert-org-icon international" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="2" y1="12" x2="22" y2="12" />
+                    <path
+                      d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                  </svg>
+                </span>
+                <div>
+                  <span class="cert-issuer">DMMMSU &amp; International Partner Universities</span>
+                  <span class="cert-type-pill">International Certificate</span>
+                </div>
+              </div>
+              <span class="cert-date-badge">Feb 16, 2026</span>
+            </div>
+            <div class="cert-body">
+              <h3 class="cert-title">International Academic Lecture Series on ICT, Innovation &amp; Collaboration (Day
+                1)</h3>
+              <p class="cert-event">Theme: "ConnectED: Learning Beyond Limits"</p>
+              <p class="cert-desc">Participated in Day 1 of the international lecture series organized by DMMMSU with
+                partner institutions from Uzbekistan, Indonesia, and Bangladesh focusing on global ICT developments and
+                academic innovation.</p>
+              <div class="cert-meta-row">
+                <div class="cert-meta-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
+                  </svg>
+                  <span>Day 1 Session · Feb 16, 2026</span>
+                </div>
+                <div class="cert-meta-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" aria-hidden="true">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                    <circle cx="12" cy="7" r="4" />
+                  </svg>
+                  <span>Juan Xyryll G. Apocero</span>
+                </div>
+              </div>
+              <div class="cert-skills">
+                <span class="c-skill">ICT Innovation</span>
+                <span class="c-skill">Cross-border Collab</span>
+                <span class="c-skill">Global Technology</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- CERT 03: ConnectED Day 2 -->
+          <article class="cert-card reveal" data-category="ict" id="cert-connected-2">
+            <div class="cert-card-top">
+              <div class="cert-issuer-badge">
+                <span class="cert-org-icon international" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="2" y1="12" x2="22" y2="12" />
+                    <path
+                      d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                  </svg>
+                </span>
+                <div>
+                  <span class="cert-issuer">DMMMSU &amp; International Partner Universities</span>
+                  <span class="cert-type-pill">International Certificate</span>
+                </div>
+              </div>
+              <span class="cert-date-badge">Feb 17, 2026</span>
+            </div>
+            <div class="cert-body">
+              <h3 class="cert-title">International Academic Lecture Series on ICT, Innovation &amp; Collaboration (Day
+                2)</h3>
+              <p class="cert-event">Theme: "ConnectED: Learning Beyond Limits"</p>
+              <p class="cert-desc">Completed Day 2 sessions addressing emerging digital transformation practices,
+                educational technologies, and collaborative software innovation with international faculty and
+                researchers.</p>
+              <div class="cert-meta-row">
+                <div class="cert-meta-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
+                  </svg>
+                  <span>Day 2 Session · Feb 17, 2026</span>
+                </div>
+                <div class="cert-meta-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" aria-hidden="true">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                    <circle cx="12" cy="7" r="4" />
+                  </svg>
+                  <span>Juan Xyryll G. Apocero</span>
+                </div>
+              </div>
+              <div class="cert-skills">
+                <span class="c-skill">Digital Transformation</span>
+                <span class="c-skill">Emerging Tech</span>
+                <span class="c-skill">Academic Research</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- CERT 04: ConnectED Full Series -->
+          <article class="cert-card reveal" data-category="ict" id="cert-connected-series">
+            <div class="cert-card-top">
+              <div class="cert-issuer-badge">
+                <span class="cert-org-icon series" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                    <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                  </svg>
+                </span>
+                <div>
+                  <span class="cert-issuer">DMMMSU &amp; Global Partner Universities</span>
+                  <span class="cert-type-pill">Lecture Series Completion</span>
+                </div>
+              </div>
+              <span class="cert-date-badge">Feb 16–20, 2026</span>
+            </div>
+            <div class="cert-body">
+              <h3 class="cert-title">ConnectED: Learning Beyond Limits — Full International ICT Series</h3>
+              <p class="cert-event">Multi-University Academic Lecture Series</p>
+              <p class="cert-desc">Engaged across the 5-day international seminar program spanning AI, computing
+                technologies, cross-cultural tech strategies, and collaborative innovation hosted with institutions
+                across Uzbekistan, Indonesia, and Bangladesh.</p>
+              <div class="cert-meta-row">
+                <div class="cert-meta-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    strokyy aria-hidden="true">
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
+                  </svg>
+                  <span>5-Day International Series</span>
+                </div>
+                <div class="cert-meta-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" aria-hidden="true">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                    <circle cx="12" cy="7" r="4" />
+                  </svg>
+                  <span>Juan Xyryll G. Apocero</span>
+                </div>
+              </div>
+              <div class="cert-skills">
+                <span class="c-skill">ICT Collaboration</span>
+                <span class="c-skill">Systems Strategy</span>
+                <span class="c-skill">Global Seminars</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- CERT 05: Cisco Cybersecurity -->
+          <article class="cert-card reveal" data-category="security" id="cert-cybersecurity">
+            <div class="cert-card-top">
+              <div class="cert-issuer-badge">
+                <span class="cert-org-icon cisco" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                  </svg>
+                </span>
+                <div>
+                  <span class="cert-issuer">Cisco Networking Academy</span>
+                  <span class="cert-type-pill">Industry Course Credential</span>
+                </div>
+              </div>
+              <span class="cert-date-badge">Certified</span>
+            </div>
+            <div class="cert-body">
+              <h3 class="cert-title">Introduction to Cybersecurity</h3>
+              <p class="cert-event">Cisco Networking Academy / Skills for All</p>
+              <p class="cert-desc">Successfully completed training covering fundamental cybersecurity concepts, common
+                network attack vectors, data privacy, threat mitigation, and industry standard defense practices.</p>
+              <div class="cert-meta-row">
+                <div class="cert-meta-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
+                  </svg>
+                  <span>Cisco Official Certificate</span>
+                </div>
+                <div class="cert-meta-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" aria-hidden="true">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                    <circle cx="12" cy="7" r="4" />
+                  </svg>
+                  <span>Juan Xyryll G. Apocero</span>
+                </div>
+              </div>
+              <div class="cert-skills">
+                <span class="c-skill">Cybersecurity</span>
+                <span class="c-skill">Network Defense</span>
+                <span class="c-skill">Threat Analysis</span>
+                <span class="c-skill">Data Privacy</span>
+              </div>
+              <div class="cert-card-actions">
+                <a href="Cybersecurity_Certificate.pdf" target="_blank" class="btn btn-outline btn-sm cert-btn"
+                  id="viewCyberCert">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" aria-hidden="true">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                    <circle cx="12" cy="12" r="3" />
+                  </svg>
+                  View Cisco PDF
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section section-alt" aria-labelledby="process-h">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="eyebrow"><span class="edot"></span>Delivery Process</span>
+          <h2 id="process-h">How I Work</h2>
+          <p class="sec-sub">A structured, transparent process that ensures every project is delivered with quality and
+            clarity.</p>
+        </div>
+        <div class="process-row reveal">
+          <div class="proc-step">
+            <div class="ps-top">
+              <span class="ps-num">01</span>
+              <div class="ps-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                  <circle cx="11" cy="11" r="8" />
+                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                </svg></div>
+            </div>
+            <h3>Discover</h3>
+            <p>Understand the client's needs, goals, constraints, and technical requirements through thorough
+              discussion.</p>
+          </div>
+          <div class="proc-conn" aria-hidden="true"></div>
+          <div class="proc-step">
+            <div class="ps-top">
+              <span class="ps-num">02</span>
+              <div class="ps-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                  <line x1="8" y1="6" x2="21" y2="6" />
+                  <line x1="8" y1="12" x2="21" y2="12" />
+                  <line x1="8" y1="18" x2="21" y2="18" />
+                  <line x1="3" y1="6" x2="3.01" y2="6" />
+                  <line x1="3" y1="12" x2="3.01" y2="12" />
+                  <line x1="3" y1="18" x2="3.01" y2="18" />
+                </svg></div>
+            </div>
+            <h3>Plan</h3>
+            <p>Define architecture, features, development approach, and project timeline before writing a single line of
+              code.</p>
+          </div>
+          <div class="proc-conn" aria-hidden="true"></div>
+          <div class="proc-step">
+            <div class="ps-top">
+              <span class="ps-num">03</span>
+              <div class="ps-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                  <path d="M12 19l7-7 3 3-7 7-3-3z" />
+                  <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" />
+                  <circle cx="11" cy="11" r="2" />
+                </svg></div>
+            </div>
+            <h3>Design</h3>
+            <p>Create the interface layout, user experience flow, and visual design ensuring clarity and usability
+              before development.</p>
+          </div>
+          <div class="proc-conn" aria-hidden="true"></div>
+          <div class="proc-step">
+            <div class="ps-top">
+              <span class="ps-num">04</span>
+              <div class="ps-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                  <rect x="3" y="3" width="18" height="18" rx="2" />
+                  <path d="M9 9l-3 3 3 3" />
+                  <path d="M15 9l3 3-3 3" />
+                </svg></div>
+            </div>
+            <h3>Develop</h3>
+            <p>Build, test, debug, and integrate the complete system maintaining clean code and solid architecture
+              throughout.</p>
+          </div>
+          <div class="proc-conn" aria-hidden="true"></div>
+          <div class="proc-step">
+            <div class="ps-top">
+              <span class="ps-num">05</span>
+              <div class="ps-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                  <polyline points="22 4 12 14.01 9 11.01" />
+                </svg></div>
+            </div>
+            <h3>Deliver</h3>
+            <p>Deploy the solution, provide documentation, and offer post-launch support to ensure everything runs
+              smoothly.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CREATIVE WORK -->
+    <section id="creative" class="section" aria-labelledby="creative-h">
+      <div class="container">
+        <div class="sec-head reveal">
+          <div class="sec-head-top">
+            <div>
+              <span class="eyebrow"><span class="edot"></span>Creative Direction</span>
+              <h2 id="creative-h">Creative Work</h2>
+            </div>
+            <button type="button" class="randomize-btn" id="randomizeCreativeBtn"
+              title="Load new random creative pictures">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="dice-icon">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"></circle>
+                <circle cx="15.5" cy="8.5" r="1.5" fill="currentColor"></circle>
+                <circle cx="15.5" cy="15.5" r="1.5" fill="currentColor"></circle>
+                <circle cx="8.5" cy="15.5" r="1.5" fill="currentColor"></circle>
+                <circle cx="12" cy="12" r="1.5" fill="currentColor"></circle>
+              </svg>
+              <span>Randomize Pictures</span>
+            </button>
+          </div>
+          <p class="sec-sub">A showcase of graphic design, UI concepts, digital artwork, illustrations, and visual
+            projects.</p>
+        </div>
+        <div class="gallery-masonry reveal" id="creativeGallery">
+          <div class="gal-item tall" data-category="UI Design" data-title="Quantum Mobile &amp; Web Dashboard UI"
+            tabindex="0" role="button" aria-label="View UI Design image">
+            <div class="gal-art ga1">
+              <img src="creative-ui.jpg" alt="UI &amp; Mobile Dashboard Design" class="gal-img" loading="lazy" />
+              <div class="gal-ov">
+                <span class="gal-pill">UI Design</span>
+                <span class="gal-label">Mobile &amp; Web UI</span>
+                <span class="gal-hint">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round">
+                    <circle cx="11" cy="11" r="8" />
+                    <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                    <line x1="11" y1="8" x2="11" y2="14" />
+                    <line x1="8" y1="11" x2="14" y2="11" />
+                  </svg>
+                  Click to expand
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="gal-item" data-category="Graphic Design" data-title="Limitless Aesthetics 3D Poster" tabindex="0"
+            role="button" aria-label="View Graphic Design image">
+            <div class="gal-art ga2">
+              <img src="creative-graphic.jpg" alt="3D Graphic Design Poster" class="gal-img" loading="lazy" />
+              <div class="gal-ov">
+                <span class="gal-pill">Graphic Design</span>
+                <span class="gal-label">3D Poster &amp; Typography</span>
+                <span class="gal-hint">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round">
+                    <circle cx="11" cy="11" r="8" />
+                    <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                    <line x1="11" y1="8" x2="11" y2="14" />
+                    <line x1="8" y1="11" x2="14" y2="11" />
+                  </svg>
+                  Click to expand
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="gal-item" data-category="Branding" data-title="Vertex Luxury Stationery Identity" tabindex="0"
+            role="button" aria-label="View Branding image">
+            <div class="gal-art ga3">
+              <img src="creative-branding.jpg" alt="Corporate Brand Identity and Stationery" class="gal-img"
+                loading="lazy" />
+              <div class="gal-ov">
+                <span class="gal-pill">Branding</span>
+                <span class="gal-label">Corporate Brand Identity</span>
+                <span class="gal-hint">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round">
+                    <circle cx="11" cy="11" r="8" />
+                    <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                    <line x1="11" y1="8" x2="11" y2="14" />
+                    <line x1="8" y1="11" x2="14" y2="11" />
+                  </svg>
+                  Click to expand
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="gal-item tall" data-category="Illustration" data-title="Cybernetic Explorer in Cyberspace"
+            tabindex="0" role="button" aria-label="View Illustration image">
+            <div class="gal-art ga4">
+              <img src="creative-illustration.jpg" alt="Cybernetic Explorer Digital Illustration" class="gal-img"
+                loading="lazy" />
+              <div class="gal-ov">
+                <span class="gal-pill">Illustration</span>
+                <span class="gal-label">Sci-Fi Concept Art</span>
+                <span class="gal-hint">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round">
+                    <circle cx="11" cy="11" r="8" />
+                    <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                    <line x1="11" y1="8" x2="11" y2="14" />
+                    <line x1="8" y1="11" x2="14" y2="11" />
+                  </svg>
+                  Click to expand
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="gal-item wide" data-category="Visual Concepts" data-title="Neon Cyberpunk Megalopolis Concept"
+            tabindex="0" role="button" aria-label="View Visual Concepts image">
+            <div class="gal-art ga5">
+              <img src="creative-concept.jpg" alt="Futuristic City Megalopolis Concept Art" class="gal-img"
+                loading="lazy" />
+              <div class="gal-ov">
+                <span class="gal-pill">Visual Concepts</span>
+                <span class="gal-label">Metropolis Skyline</span>
+                <span class="gal-hint">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round">
+                    <circle cx="11" cy="11" r="8" />
+                    <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                    <line x1="11" y1="8" x2="11" y2="14" />
+                    <line x1="8" y1="11" x2="14" y2="11" />
+                  </svg>
+                  Click to expand
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="gal-item" data-category="Digital Art" data-title="Chromatic Fluid 3D Orbital Sphere" tabindex="0"
+            role="button" aria-label="View Digital Art image">
+            <div class="gal-art ga6">
+              <img src="creative-digital-art.jpg" alt="Abstract 3D Chromatic Digital Art" class="gal-img"
+                loading="lazy" />
+              <div class="gal-ov">
+                <span class="gal-pill">Digital Art</span>
+                <span class="gal-label">3D Iridescent Fluid Sphere</span>
+                <span class="gal-hint">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round">
+                    <circle cx="11" cy="11" r="8" />
+                    <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                    <line x1="11" y1="8" x2="11" y2="14" />
+                    <line x1="8" y1="11" x2="14" y2="11" />
+                  </svg>
+                  Click to expand
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section section-alt" aria-labelledby="test-h">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="eyebrow"><span class="edot"></span>Client Feedback</span>
+          <h2 id="test-h">Testimonials</h2>
+          <p class="sec-sub">Add real testimonials from clients and collaborators by replacing the placeholder content
+            below.</p>
+        </div>
+        <div class="test-grid reveal">
+          <article class="test-card">
+            <div class="tc-qm" aria-hidden="true">&#8220;</div>
+            <p>Add a client or colleague testimonial here. Replace this with a genuine quote about the quality of work,
+              professionalism, or specific results delivered.</p>
+            <footer class="tc-foot">
+              <div class="tc-av">N</div>
+              <div class="tc-meta"><strong>Name</strong><span>Position</span><span class="tc-org">Organization</span>
+              </div>
+            </footer>
+          </article>
+          <article class="test-card">
+            <div class="tc-qm" aria-hidden="true">&#8220;</div>
+            <p>Add another testimonial here. Genuine quotes from real clients, supervisors, or colleagues significantly
+              strengthen a professional portfolio.</p>
+            <footer class="tc-foot">
+              <div class="tc-av">N</div>
+              <div class="tc-meta"><strong>Name</strong><span>Position</span><span class="tc-org">Organization</span>
+              </div>
+            </footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-sec" aria-labelledby="contact-h">
+      <div class="container contact-layout">
+        <div class="contact-left reveal">
+          <span class="eyebrow"><span class="edot"></span>Let's Connect</span>
+          <h2 id="contact-h">Have a project in mind?</h2>
+          <p class="contact-lead">Let's discuss how technology can turn your ideas and requirements into a practical,
+            reliable digital solution.</p>
+          <a href="#contact-form" class="btn btn-primary btn-lg" id="contactCTA">
+            Let's Work Together
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              stroke-linecap="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </a>
+          <div class="ci-list">
+            <div class="ci-row">
+              <div class="ci-ico" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg></div>
+              <div><span class="ci-label">Email</span><a href="mailto:your.email@example.com"
+                  class="ci-val">juanapocero548@gmail.com</a></div>
+            </div>
+            <div class="ci-row">
+              <div class="ci-ico" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <path
+                    d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.52 12.84 19.79 19.79 0 01.44 4.22 2 2 0 012.42 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 9.91a16 16 0 006.16 6.16l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+                </svg></div>
+              <div><span class="ci-label">Phone</span><a href="tel:+00000000000" class="ci-val">09691845854</a></div>
+            </div>
+            <div class="ci-row">
+              <div class="ci-ico" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg></div>
+              <div><span class="ci-label">Location</span><span class="ci-val">Philippines</span></div>
+            </div>
+          </div>
+          <div class="soc-row">
+            <a href="https://github.com/Jun2i" target="_blank" rel="noopener noreferrer" class="soc-btn"
+              aria-label="GitHub" id="socGh">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" aria-hidden="true">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+              </svg>
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/apocero-juan-xyryll-735856441" target="_blank" rel="noopener noreferrer" class="soc-btn" aria-label="LinkedIn" id="socLi">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" aria-hidden="true">
+                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+              LinkedIn
+            </a>
+          </div>
+          <a href="#resumeModal" class="btn btn-ghost resume-dl resume-trigger" id="contactResume">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" aria-hidden="true">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+              <polyline points="10 9 9 9 8 9"></polyline>
+            </svg>
+            View Resume / CV
+          </a>
+        </div>
+        <div class="contact-right reveal" id="contact-form">
+          <h3>Send a Message</h3>
+          <form class="c-form" novalidate id="mainContactForm" aria-label="Contact form">
+            <div class="cf-field">
+              <label for="cf-name">Full Name</label>
+              <input type="text" id="cf-name" name="name" placeholder="Your full name" autocomplete="name" required />
+            </div>
+            <div class="cf-row">
+              <div class="cf-field">
+                <label for="cf-email">Email Address</label>
+                <input type="email" id="cf-email" name="email" placeholder="your@email.com" autocomplete="email"
+                  required />
+              </div>
+              <div class="cf-field">
+                <label for="cf-subject">Subject</label>
+                <input type="text" id="cf-subject" name="subject" placeholder="Project inquiry" required />
+              </div>
+            </div>
+            <div class="cf-field">
+              <label for="cf-msg">Message</label>
+              <textarea id="cf-msg" name="message" rows="6"
+                placeholder="Tell me about your project, requirements, or questions..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="cfSubmit">
+              Send Message
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" aria-hidden="true">
+                <line x1="22" y1="2" x2="11" y2="13" />
+                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container ft-main">
+      <div class="ft-brand-col">
+        <a href="#home" class="ft-brand">
+          <span class="brand-mark" aria-hidden="true">JX</span>
+          <span class="ft-name">Juan Xyryll G. Apocero</span>
+        </a>
+        <p class="ft-tag">Web Developer &#183; Systems Developer &#183; IT Professional</p>
+        <p class="ft-blurb">Building reliable digital solutions that help organizations improve their processes and
+          achieve their goals.</p>
+      </div>
+      <nav class="ft-nav" aria-label="Footer navigation">
+        <h4>Navigation</h4>
+        <ul role="list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#creative">Creative</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="ft-connect">
+        <h4>Connect</h4>
+        <div class="ft-socs">
+          <a href="https://github.com/Jun2i" target="_blank" rel="noopener noreferrer" class="ft-soc"
+            aria-label="GitHub" id="ftGh">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" aria-hidden="true">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+            </svg>
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/apocero-juan-xyryll-735856441" target="_blank" rel="noopener noreferrer" class="ft-soc" aria-label="LinkedIn" id="ftLi">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" aria-hidden="true">
+              <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
+              <rect x="2" y="9" width="4" height="12" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+            LinkedIn
+          </a>
+        </div>
+        <a href="#resumeModal" class="btn btn-ghost ft-resume resume-trigger" id="ftResume">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" aria-hidden="true">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          View Resume
+        </a>
+      </div>
+    </div>
+    <div class="ft-bottom">
+      <div class="container ft-bottom-inner">
+        <p>&#169; 2026 Juan Xyryll G. Apocero. All Rights Reserved.</p>
+        <p>Designed &amp; Built by Juan Xyryll G. Apocero</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CREATIVE LIGHTBOX -->
+  <div class="creative-lightbox" id="creativeLightbox" aria-hidden="true" role="dialog" aria-modal="true"
+    aria-labelledby="creativeLightboxTitle">
+    <div class="cl-backdrop" id="creativeLightboxBackdrop"></div>
+    <div class="cl-content">
+      <button class="cl-close" id="creativeLightboxClose" aria-label="Close image preview"
+        type="button">&times;</button>
+      <div class="cl-img-wrap">
+        <img src="" alt="" id="creativeLightboxImg" class="cl-img" />
+      </div>
+      <div class="cl-caption">
+        <span class="cl-tag" id="creativeLightboxTag"></span>
+        <h3 class="cl-title" id="creativeLightboxTitle"></h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- RESUME MODAL & VIEWER -->
+  <div class="resume-modal-overlay" id="resumeModal" aria-hidden="true" role="dialog" aria-modal="true"
+    aria-labelledby="resumeModalTitle">
+    <div class="resume-modal-backdrop" id="resumeModalBackdrop"></div>
+    <div class="resume-modal-wrapper">
+      <div class="resume-modal-header">
+        <div class="rm-title-group">
+          <h3 id="resumeModalTitle">Curriculum Vitae / Resume</h3>
+          <span class="rm-subtitle">Juan Xyryll G. Apocero — Information Systems</span>
+        </div>
+        <div class="rm-actions">
+          <button class="btn btn-outline btn-sm" id="resumeDownloadBtn" type="button">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+            Download PDF
+          </button>
+          <button class="btn btn-primary btn-sm" id="resumePrintBtn" type="button">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="6 9 6 2 18 2 18 9"></polyline>
+              <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+              <rect x="6" y="14" width="12" height="8"></rect>
+            </svg>
+            Print / PDF
+          </button>
+          <button class="rm-close-btn" id="resumeCloseBtn" aria-label="Close resume modal"
+            type="button">&times;</button>
+        </div>
+      </div>
+
+      <div class="resume-modal-body">
+        <div class="resume-sheet-container" id="resumeSheet">
+          <div class="resume-doc">
+            <!-- HEADER -->
+            <header class="rd-header">
+              <div class="rd-header-left">
+                <h1 class="rd-name">JUAN XYRYLL G. APOCERO</h1>
+                <p class="rd-tagline">Information Systems Student</p>
+                <div class="rd-sep-line"></div>
+                <div class="rd-contact-block">
+                  <h2 class="rd-contact-title">CONTACT DETAILS</h2>
+                  <div class="rd-contact-grid">
+                    <div class="rd-c-row">
+                      <span class="rd-c-label">Address:</span>
+                      <span class="rd-c-val">Sapilang, Bacnotan, La Union</span>
+                    </div>
+                    <div class="rd-c-row">
+                      <span class="rd-c-label">Contact No:</span>
+                      <a href="tel:09691845854" class="rd-c-val">09691845854</a>
+                    </div>
+                    <div class="rd-c-row">
+                      <span class="rd-c-label">Email Address:</span>
+                      <a href="mailto:juanapocero548@gmail.com" class="rd-c-val">juanapocero548@gmail.com</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rd-header-right">
+                <div class="rd-photo-frame">
+                  <img src="profile-formal.jpg" alt="Juan Xyryll G. Apocero" class="rd-photo" />
+                </div>
+              </div>
+            </header>
+
+            <div class="rd-main-divider"></div>
+
+            <!-- OBJECTIVE -->
+            <section class="rd-section">
+              <div class="rd-sec-heading">
+                <span class="rd-bar"></span>
+                <h2>OBJECTIVE</h2>
+              </div>
+              <p class="rd-p">
+                Dedicated and enthusiastic student with a strong interest in information systems and communication
+                technology, seeking an ICT Support opportunity to apply my technical, problem-solving, and communication
+                skills. Eager to assist users with technical concerns, troubleshoot hardware and software issues, and
+                contribute to a reliable and supportive information systems environment.
+              </p>
+            </section>
+
+            <!-- EDUCATION -->
+            <section class="rd-section">
+              <div class="rd-sec-heading">
+                <span class="rd-bar"></span>
+                <h2>EDUCATION</h2>
+              </div>
+              <div class="rd-timeline">
+                <div class="rd-tl-item">
+                  <div class="rd-tl-dot"></div>
+                  <div class="rd-tl-content">
+                    <div class="rd-tl-header">
+                      <strong class="rd-school">Nabunturan Central Elementary School</strong>
+                      <span class="rd-years">2011–2017</span>
+                    </div>
+                    <span class="rd-loc">Nabunturan, Compostela Valley</span>
+                  </div>
+                </div>
+                <div class="rd-tl-item">
+                  <div class="rd-tl-dot"></div>
+                  <div class="rd-tl-content">
+                    <div class="rd-tl-header">
+                      <strong class="rd-school">Agtangao Elementary School</strong>
+                      <span class="rd-years">2017–2018</span>
+                    </div>
+                    <span class="rd-loc">Agtangao, Bangued, Abra</span>
+                  </div>
+                </div>
+                <div class="rd-tl-item">
+                  <div class="rd-tl-dot"></div>
+                  <div class="rd-tl-content">
+                    <div class="rd-tl-header">
+                      <strong class="rd-school">Abra State Institute of Science and Technology</strong>
+                      <span class="rd-years">2018–2022</span>
+                    </div>
+                    <span class="rd-loc">Zone 3, Bangued, Abra</span>
+                  </div>
+                </div>
+                <div class="rd-tl-item">
+                  <div class="rd-tl-dot"></div>
+                  <div class="rd-tl-content">
+                    <div class="rd-tl-header">
+                      <strong class="rd-school">Lumil Integrated National High School</strong>
+                      <span class="rd-years">2022–2024</span>
+                    </div>
+                    <span class="rd-loc">Lumil, Silang, Cavite</span>
+                  </div>
+                </div>
+                <div class="rd-tl-item">
+                  <div class="rd-tl-dot"></div>
+                  <div class="rd-tl-content">
+                    <div class="rd-tl-header">
+                      <strong class="rd-school">Don Mariano Marcos Memorial State University</strong>
+                      <span class="rd-years">2024–Present</span>
+                    </div>
+                    <span class="rd-loc">Sapilang, Bacnotan, La Union</span>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- CERTIFICATIONS -->
+            <section class="rd-section">
+              <div class="rd-sec-heading">
+                <span class="rd-bar"></span>
+                <h2>CERTIFICATIONS</h2>
+              </div>
+              <ul class="rd-bullet-list">
+                <li><strong>Armada Logics Day 2 School Caravan:</strong> AI Tools and Software Technologies for
+                  Programming and Research(Participant) – 2026</li>
+                <li><strong>International Academic Lecture Series on ICT, Innovation and
+                    Collaboration</strong>(Participant) – 2026</li>
+                <li><strong>From Confused to Confident:</strong> A Realistic Roadmap to Online Freelancing(Participant)
+                  – 2026</li>
+                <li><strong>Introduction to Cybersecurity:</strong> Cisco Networking Academy(Participant) – 2025</li>
+                <li><strong>DMMMSU Internationalization:</strong> Ready, Set, Global!(Participant) – 2026</li>
+                <li><strong>SIBOL Project:</strong> Launching of Student-Based Incubation Program at DMMMSU(Participant)
+                  – 2026</li>
+              </ul>
+            </section>
+
+            <!-- RELEVANT EXPERIENCE / PROJECTS -->
+            <section class="rd-section">
+              <div class="rd-sec-heading">
+                <span class="rd-bar"></span>
+                <h2>RELEVANT EXPERIENCE / PROJECTS</h2>
+              </div>
+              <div class="rd-proj-list">
+                <div class="rd-proj-item">
+                  <div class="rd-proj-title">1. Boarding House Management System</div>
+                  <div class="rd-proj-tech"><strong>Technologies:</strong> PHP, MySQL, HTML, CSS, JavaScript</div>
+                  <p class="rd-proj-desc">A web-based system that manages boarding house operations including tenant
+                    records, room assignments, payments, and billing.</p>
+                </div>
+                <div class="rd-proj-item">
+                  <div class="rd-proj-title">2. EduForms – School Forms Request System</div>
+                  <div class="rd-proj-tech"><strong>Technologies:</strong> Python, Django, HTML, CSS, JavaScript, MySQL
+                  </div>
+                  <p class="rd-proj-desc">A web-based system that streamlines the request, approval, and tracking of
+                    school forms.</p>
+                </div>
+                <div class="rd-proj-item">
+                  <div class="rd-proj-title">3. Personal Website &amp; Portfolio (2026–Present)</div>
+                  <div class="rd-proj-tech"><strong>Technologies:</strong> HTML, CSS, JavaScript, Modern UI/UX</div>
+                  <p class="rd-proj-desc">A professional personal portfolio website designed to showcase web development
+                    skills, projects, technical expertise, creative work, and professional information through a
+                    responsive and modern interface.</p>
+                </div>
+              </div>
+            </section>
+
+            <!-- SKILLS -->
+            <section class="rd-section">
+              <div class="rd-sec-heading">
+                <span class="rd-bar"></span>
+                <h2>SKILLS</h2>
+              </div>
+              <div class="rd-skills-cols">
+                <div class="rd-skill-col">
+                  <h3 class="rd-subheading">TECHNICAL SKILLS</h3>
+                  <ul class="rd-bullet-list">
+                    <li>Fluency and Conversational Skills in English</li>
+                    <li>Productivity Software Suite Mastery</li>
+                    <li>Adaptability and Flexibility</li>
+                    <li>Problem Solving &amp; Debugging</li>
+                    <li>Prompt Engineering &amp; AI Tools</li>
+                    <li>Hardware Troubleshooting &amp; ICT Support</li>
+                    <li>Web &amp; Systems Development (PHP, Python, Django, Java, MySQL)</li>
+                  </ul>
+                </div>
+                <div class="rd-skill-col">
+                  <h3 class="rd-subheading">INTERPERSONAL SKILLS</h3>
+                  <ul class="rd-bullet-list">
+                    <li>Active Listening and Questioning Techniques</li>
+                    <li>Coordination &amp; Project Management</li>
+                    <li>AI Product Management</li>
+                    <li>Effective Team Collaboration</li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button class="back-top" id="backTopBtn" aria-label="Back to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+      stroke-linecap="round" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15" />
+    </svg>
+  </button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
